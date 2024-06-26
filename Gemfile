@@ -19,6 +19,7 @@ gem "importmap-rails"
 
 gem 'redis'
 
+gem 'sidekiq'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -28,8 +29,6 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-
-
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
